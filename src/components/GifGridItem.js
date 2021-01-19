@@ -17,5 +17,3 @@ GifGridItem.propTypes = {
   url: PropTypes.string.isRequired,
 }
 
-
-//! 8 Testing - probando la aplicacion de GifExpert cap 2

@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import PropTypes from "prop-types";
+
 import { getGifs } from "../helpers/getGifs";
 import useFetchGifs from "../hooks/useFetchGifs";
 import { GifGridItem } from "./GifGridItem";
@@ -15,9 +17,9 @@ export const GifGrid = ({ category }) => {
 
   return (
     <>
-      <h3 className={'animate__animated animate__fadeIn'}> {category} </h3>
+      <h3 className={"animate__animated animate__fadeIn"}> {category} </h3>
 
-      {loading && <p className={'animate__animated animate__flash'}>Loading</p>}
+      {loading && <p className={"animate__animated animate__flash"}>Loading</p>}
 
       <div className={"card-grid"}>
         {images.map((img) => (
@@ -29,4 +31,6 @@ export const GifGrid = ({ category }) => {
   );
 };
 
-//! 13 custom hooks
+GifGrid.propTypes ={
+  category: PropTypes.func.isRequired
+}

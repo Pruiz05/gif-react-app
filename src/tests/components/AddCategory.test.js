@@ -47,5 +47,5 @@ describe("Pruebas en <AddCategory />", () => {
   });
 });
 
-// session 8. cap. 10
+//TODO: session 8. cap. 10
 

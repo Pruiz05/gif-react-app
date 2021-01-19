@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifReactApp /> debe de mostrar una lista de categorias 1`] = `
+<Fragment>
+  <h2>
+    Gif React App
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <GifGrid
+    category="Bleach"
+    key="Bleach"
+  />
+  <GifGrid
+    category="One Piece"
+    key="One Piece"
+  />
+</Fragment>
+`;

@@ -7,9 +7,4 @@ describe('Pruebas con getGifs Fetxh', () => {
 
         expect( gifs.length).toBe(10)
     })
-
-
-    
-   
-    
 })

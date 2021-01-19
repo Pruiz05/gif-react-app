@@ -3,10 +3,10 @@ import { AddCategory } from "./components/AddCategory";
 
 import { GifGrid } from "./components/GifGrid";
 
-const GifReactApp = () => {
+const GifReactApp = ({defaultCategories = []}) => {
   // const categories = ['One piece', 'Bleach', 'Naruto'];
 
-  const [categories, setCategories] = useState(["Bleach"]);
+  const [categories, setCategories] = useState(defaultCategories);
  
 //   const handleAdd = () =>{
 //       setCategories([...categories,'Hunter x Hunter']);

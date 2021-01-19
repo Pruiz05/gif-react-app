@@ -37,5 +37,3 @@ describe("<Pruebas en <GifGridItem />", () => {
   });
 });
 
-
-//? 8-testin, cap 5: pruebas en el helper getGifs
