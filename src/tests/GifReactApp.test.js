@@ -2,7 +2,7 @@ import { shallow } from "enzyme";
 import GifReactApp from "../GifReactApp";
 
 describe("Pruebas en <GifReactApp />", () => {
-  test("debe de mostrarse correctamente", () => {
+  test("debe de mostrarse correctamente", ( ) => {
     const wrapper = shallow(<GifReactApp />);
 
     expect(wrapper).toMatchInlineSnapshot();
